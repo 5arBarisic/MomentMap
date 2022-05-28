@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/add_moment">
+    <fragment
+        android:id="@+id/add_moment"
+        android:name="petarbarisic.ferit.momentmap.add_moment"
+        android:label="fragment_add_moment"
+        tools:layout="@layout/fragment_add_moment" />
+</navigation>
