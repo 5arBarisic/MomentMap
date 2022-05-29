@@ -8,5 +8,18 @@
         android:id="@+id/add_moment"
         android:name="petarbarisic.ferit.momentmap.add_moment"
         android:label="fragment_add_moment"
-        tools:layout="@layout/fragment_add_moment" />
+        tools:layout="@layout/fragment_add_moment" >
+        <action
+            android:id="@+id/action_add_moment_to_input"
+            app:destination="@id/input" />
+    </fragment>
+    <fragment
+        android:id="@+id/input"
+        android:name="petarbarisic.ferit.momentmap.input"
+        android:label="fragment_input"
+        tools:layout="@layout/fragment_input" >
+        <action
+            android:id="@+id/action_input_to_add_moment"
+            app:destination="@id/add_moment" />
+    </fragment>
 </navigation>
