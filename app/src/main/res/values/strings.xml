@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">MomentMap</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unesi_tekst">Unesi tekst</string>
+    <string name="naslov">Naslov</string>
+    <string name="no_location_selected">No location selected</string>
+    <string name="date">Date</string>
+    <string name="finish">finish</string>
+    <string name="add">add</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="current_date">Current Date</string>
 </resources>

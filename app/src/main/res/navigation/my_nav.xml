@@ -3,23 +3,55 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/add_moment">
+    app:startDestination="@id/mainPageFragment">
     <fragment
-        android:id="@+id/add_moment"
-        android:name="petarbarisic.ferit.momentmap.add_moment"
-        android:label="fragment_add_moment"
-        tools:layout="@layout/fragment_add_moment" >
+        android:id="@+id/mainPageFragment"
+        android:name="petarbarisic.ferit.momentmap.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
         <action
-            android:id="@+id/action_add_moment_to_input"
-            app:destination="@id/input" />
+            android:id="@+id/action_mainPageFragment_to_newMoment"
+            app:destination="@id/newMoment" />
     </fragment>
     <fragment
-        android:id="@+id/input"
-        android:name="petarbarisic.ferit.momentmap.input"
-        android:label="fragment_input"
-        tools:layout="@layout/fragment_input" >
+        android:id="@+id/momentList"
+        android:name="petarbarisic.ferit.momentmap.ui.moment_list.MomentList"
+        android:label="MomentList" >
         <action
-            android:id="@+id/action_input_to_add_moment"
-            app:destination="@id/add_moment" />
+            android:id="@+id/action_momentList_to_momentDetails"
+            app:destination="@id/momentDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/newMoment"
+        android:name="petarbarisic.ferit.momentmap.ui.moment_new.NewMoment"
+        android:label="fragment_new_moment"
+        tools:layout="@layout/fragment_new_moment" >
+        <action
+            android:id="@+id/action_newMoment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diary"
+        android:name="petarbarisic.ferit.momentmap.ui.diary.Diary"
+        android:label="fragment_diary"
+        tools:layout="@layout/fragment_diary" >
+        <action
+            android:id="@+id/action_diary_to_momentList"
+            app:destination="@id/momentList" />
+        <action
+            android:id="@+id/action_diary_to_momentDetails"
+            app:destination="@id/momentDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/momentDetails"
+        android:name="petarbarisic.ferit.momentmap.MomentDetails"
+        android:label="fragment_moment_details"
+        tools:layout="@layout/fragment_moment_details" >
+        <action
+            android:id="@+id/action_momentDetails_to_momentList"
+            app:destination="@id/momentList" />
+        <argument
+            android:name="momentDate"
+            app:argType="string" />
     </fragment>
 </navigation>

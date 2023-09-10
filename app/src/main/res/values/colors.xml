@@ -7,7 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="bott_nav_color">#33FF71</color>
-    <color name="bott_nav_item_color">#FF4C33</color>
+    <color name="bott_nav_color">#33E0FF</color>
+    <color name="bott_nav_item_color">#E91E63</color>
+    <color name="exit_color">#E32727</color>
+    <color name="gray">#888</color>
+    <color name="blue">#0000FF</color>
 
 </resources>

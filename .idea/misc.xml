@@ -16,10 +16,21 @@
         <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1795" />
         <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/drawable/ic_location_on_white_24dp.xml" value="0.2025" />
         <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/drawable/round_edittext.xml" value="0.2025" />
-        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/calendar.xml" value="0.1897644927536232" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/calendar_cell.xml" value="0.1897644927536232" />
         <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_add_moment.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_calendar.xml" value="0.1897644927536232" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_diary.xml" value="0.19157608695652173" />
         <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_input.xml" value="0.25416666666666665" />
-        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_main_page.xml" value="0.18478260869565216" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_moment_details.xml" value="0.12360688956433637" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_moment_list.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/fragment_new_moment.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/moment_item.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/layout/testni.xml" value="0.19157608695652173" />
+        <entry key="..\:/AndroidStudioProjects/MomentMap/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.264" />
       </map>
     </option>
   </component>

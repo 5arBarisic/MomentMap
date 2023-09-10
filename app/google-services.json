@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096735865672",
+    "project_id": "momentmap-2e702",
+    "storage_bucket": "momentmap-2e702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096735865672:android:627fc3788db9b79594917d",
+        "android_client_info": {
+          "package_name": "petarbarisic.ferit.momentmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096735865672-j3ra5gnr2ps5nr0i9vrnn3bqks66oq39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZkxPSKADCxr3U09EtDzxY1GQP6KIYHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096735865672-j3ra5gnr2ps5nr0i9vrnn3bqks66oq39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
